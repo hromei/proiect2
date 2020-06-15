@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    body {
+      text-align: center;
+  }
+  form {
+      display: inline-block;
+  }
+</style>
+  </head>
+<body>
+<div class="form">
+<p style="color:red"><%=mesajErr.mesajEroare%></p>
+<form action="/verificare-autentificare" method="post">
+  <label for="username">Utilizator:</label><input type="user" id="username" name="username"><br><br>
+  <label for="pass">Parolă:</label> <input type="password" id="pass" name="pass"><br><br>
+  <input type="submit" value="Autentificare">
+</form>
+</div>
+</body>
+</html>

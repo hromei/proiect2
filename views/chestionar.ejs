@@ -1,0 +1,13 @@
+<form action="/rezultat-chestionar" method="post">
+    <% for(var i=0;i<=intrebari.length-1;i++) { %>
+        <%= intrebari[i]['intrebare'] %> <br>
+
+        <% for(var v=0; v<=intrebari[i]['variante'].length-1; v++) { %>
+            <input type="radio" name="raspuns<%=i%>" value="<%=v%>" />
+            <label> <%= intrebari[i]['variante'][v] %> </label> <br>
+        <% } %>
+        <br>
+    <% } %>
+    <br>
+    <input type="submit" value="Submit" />
+</form>

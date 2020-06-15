@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PW</title>
+    <meta charset="utf-8">
+    <style>
+        .buton {
+            background-color: #4CAF50;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            display:block; /* change this from inline-block */
+            width:20%; /* setting the width */
+            margin:0 auto; /* this will center  it */
+        }
+    </style>
+</head>
+
+<body>
+   <p>Bine ai venit, <%= logare.username %> </p>
+
+    <form actions="creare-db" method="post" />
+    <input type="submit" class="buton" value="Creare DB" />
+    </form>
+    <br><br>
+    <form actions="/inserare-db" method="post" />
+    <input type="submit" class="buton" value="Încărcare DB" />
+    </form>
+</body>
+
+</html>
