@@ -1,0 +1,28 @@
+{ "listaIntrebari" : [
+    {
+        "intrebare": "Cum se numeste personajul principal din cartea 'Baiatul cu pijamale in dungi'?",
+        "variante": ["Bruno", "John", "Harry", "Christian"],
+        "corect": "0"
+    },
+    {
+        "intrebare": "In ce an a fost fondat Marvel Comics?",
+        "variante": ["1940", "1945", "1960","1970" ],
+        "corect": "0"
+    },
+    {
+        "intrebare": "Ce actor a fost vocea lui Scar din filmul 'Regele leu' (1994)?",
+        "variante": ["Nathan Lane", "Ernie Sabella", "Jeremy Irons", "Chiwetel Ejiofor"],
+        "corect": "2"
+    },
+    {
+        "intrebare": "Cine a regizat trilogia 'The Dark Knight'?",
+        "variante": ["Morgan Freeman", "Christopher Nolan ", "Christian Bale", "Heath Ledger"],
+        "corect": "1"
+    },
+    {
+        "intrebare": "In ce an a aparut revista 'National Geographic' in Romania?",
+        "variante": ["2003", "2000", "1997", "1999"],
+        "corect": "0"
+    }
+    ]
+}
